@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website",
-  "homepage": "https://k11tqa25.github.io/Personal-Website",
+  "homepage": "https://k11tqa25.github.io/Personal-Website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/k11tqa25/Personal-Website.git"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
