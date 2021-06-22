@@ -8,21 +8,19 @@ import ResumeSectionTitle from '../components/ResumeSectionTitle'
 import SchoolIcon from '@material-ui/icons/School';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import DownloadIcon from '@material-ui/icons/GetApp';
-import ResumePdf from '../data/Resume.pdf';
 
 class ResumePage extends Component {
     render() {
         const briefcase = <BusinessCenterIcon />
         const school = <SchoolIcon />
         const download = <DownloadIcon/>
-        const resumePdf = <ResumePdf/>
         return (            
             <MainLayout>
                
                 <Title title={'Resume'} span={'Resume'}/>
                 <ResumeContainerStyled>             
                     <div className="download-button">  
-                        <DownloadButtonStyled href='../data/Resume.pdf' download target='_blank'>
+                        <DownloadButtonStyled href='./Resume.pdf' download target='_blank'>
                             <p className="button-hover-icon">{download}</p>
                             <p className="button-text">DOWNLOAD</p>
                         </DownloadButtonStyled>
@@ -35,6 +33,9 @@ class ResumePage extends Component {
                         year={'2021 Feb-May'}
                         title={'Frontend Developer'}
                         subTitle={'Branche, INC. '}
+                        keywords={
+                            ['#ReactJS','#Redux','#MySQL','#Python Flask', '#Restful API', '#Github Team Collaboration']
+                        }
                         text={"Experienced with ReactJS + Redux frontend development and Github version control with the team."}
                         bulletPoints={
                             [
@@ -50,6 +51,9 @@ class ResumePage extends Component {
                         year={'2017-2019'} 
                         title={'Software Developer'}
                         subTitle={'YoungOptics Inc.'}
+                        keywords={
+                            ["C# WPF | WinForms","Python PyQt","Design Patterns","SOLID","OOP","ASP.NET Standard Library Development","EmguCV","Image Processing"]
+                        }
                         text={`Accomplished developing multiple desktop apps with C# WinForms/ WPF and Python PyQt for clients and product line 
                         while finishing a self-proposed long-term project. Controlled multiple devices to retrieve, visualize, anylize and calibrate the data.`}
                         bulletPoints={

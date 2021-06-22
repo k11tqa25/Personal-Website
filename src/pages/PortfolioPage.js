@@ -6,7 +6,7 @@ class PortfolioPage extends Component {
     render() {
         return (
              <MainLayout>
-                <Title title={'Portfolilo'} span={'portfolilo'} />
+                <Title title={'Portfolio'} span={'portfolio'} />
             </MainLayout>
         );
     }

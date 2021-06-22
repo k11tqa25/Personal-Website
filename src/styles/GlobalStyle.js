@@ -29,12 +29,12 @@ const GlobalStyle = createGlobalStyle`
     --background-dark-color: #F1F1F1;
     --background-dark-grey: #e4e4e4;
     --border-color: #cbced8;
-    --background-light-color: #F1F1F1;
+    --background-light-color: #10121A;
     --background-light-color-2: rgba(3,127,255,.3);
     --white-color: #151515;
     --font-light-color: #313131;
     --font-dark-color: #313131;
-    --font-dark-color-2: #151515;
+    --font-dark-color-2: #F1F1F1;
     --sidebar-dark-color: #E4E4E4;
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;

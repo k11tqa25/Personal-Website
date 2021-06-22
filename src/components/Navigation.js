@@ -13,22 +13,22 @@ function Navigation(props) {
             </div>
             <ul className='nav-items'>
                 <li className='nav-itme'>
-                    <NavLink to='/' activeClassName='active-class' exact>HOME</NavLink>
+                    <NavLink to='/Personal-Website/' activeClassName='active-class' exact>HOME</NavLink>
                 </li>
                 <li className='nav-itme'>
-                    <NavLink to='/about' activeClassName='active-class' exact>ABOUT</NavLink>
+                    <NavLink to='/Personal-Website/about' activeClassName='active-class' exact>ABOUT</NavLink>
                 </li>
                 <li className='nav-itme'>
-                    <NavLink to='/resume' activeClassName='active-class' exact>RESUME</NavLink>
-                </li>
-                {/* <li className='nav-itme'>
-                    <NavLink to='/experience' activeClassName='active-class' exact>EXPERIENCE</NavLink>
-                </li> */}
-                <li className='nav-itme'>
-                    <NavLink to='/portfolio' activeClassName='active-class' exact>PORTFOLIO</NavLink>
+                    <NavLink to='/Personal-Website/resume' activeClassName='active-class' exact>RESUME</NavLink>
                 </li>
                 <li className='nav-itme'>
-                    <NavLink to='/contact' activeClassName='active-class' exact>CONTACT</NavLink>
+                    <NavLink to='/Personal-Website/experience' activeClassName='active-class' exact>EXPERIENCE</NavLink>
+                </li>
+                <li className='nav-itme'>
+                    <NavLink to='/Personal-Website/portfolio' activeClassName='active-class' exact>PORTFOLIO</NavLink>
+                </li>
+                <li className='nav-itme'>
+                    <NavLink to='/Personal-Website/contact' activeClassName='active-class' exact>CONTACT</NavLink>
                 </li>
             </ul>
             <footer className="footer">

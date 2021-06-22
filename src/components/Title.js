@@ -28,10 +28,10 @@ const TitleStyled = styled.div`
         span{
             font-weight: 700;
             color: var(--background-light-color-2);
-            font-size: 4.5rem;
+            font-size: 3.8rem;
             position: absolute;
-            left: 3%;
-            top: 10%;
+            left: 1rem;
+            top: 1rem;
             z-index: -1;
         }
     }

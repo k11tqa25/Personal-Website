@@ -2,7 +2,7 @@ import Particles from 'react-particles-js';
 
 import React from 'react';
 
-function Particle() {
+function Particle({color}) {
   return (
     <>
       <Particles width="90%" height= "98vh"
@@ -16,7 +16,7 @@ function Particle() {
                         }
                     },
                     "color": {
-                        "value": "#ffffff"
+                        "value": color
                     },
                     "shape": {
                         "type": "circle",

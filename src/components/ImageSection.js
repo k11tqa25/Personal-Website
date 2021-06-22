@@ -1,18 +1,17 @@
 import React from 'react'
 import styled from 'styled-components';
-import avatar from '../images/avatar.jpg';
-import PrimaryButton from './PrimaryButton';
+import profile from '../images/profile_photo.png';
 
 function ImageSection() {
     return (
         <ImageSectionStyled>
             <div className="left-content">
-                <img src={avatar} alt=""/>
+                <img src={profile} alt=""/>
             </div>
             <div className="right-content">
                 <p className="paragraph">
                     2+ years of industrial working experience as a C# desktop application developer.                 
-                    Other experiences include:
+                    Other experience includes:
                 </p>
                 <ul>
                     <li>C# Xamarin Mobile Development</li>
@@ -30,13 +29,13 @@ function ImageSection() {
                         <p>Qualities</p>
                     </div>
                     <div className="info">
-                        <p>: Wen-Kai, Tsai</p>
-                        <p>: 26</p>
-                        <p>: Taiwan </p>
-                        <p>: Mandarin, English </p>
-                        <p>: Los Angeles, California.</p>
-                        <p>: C# desktop | web development</p>
-                        <p>: Self-taught coder;  </p>
+                        <p> Wen-Kai, Tsai</p>
+                        <p> 26</p>
+                        <p> Taiwan </p>
+                        <p> Mandarin, English </p>
+                        <p> Los Angeles, California.</p>
+                        <p> C# desktop | web development</p>
+                        <p> Self-taught coder;  </p>
                     </div>
                 </div>
                 {/* <PrimaryButton title={'Download Resume'} /> */}
@@ -57,13 +56,19 @@ const ImageSectionStyled = styled.div`
     }
     .left-content{
         width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
         img{
-            width: 60%;
+            border-radius: 3rem;
+            opacity: 0.9;
+            width: 80%;            
             object-fit: cover;
         }
     }
     .right-content{
         width: 100%;
+        margin-top: 1rem;
         h4{
             font-size: 2rem;
             color: var(--white-color);
@@ -84,7 +89,8 @@ const ImageSectionStyled = styled.div`
             .info-title{
                 padding-right: 3rem;
                 p{
-                    font-weight: 600;
+                    text-transform: uppercase;
+                    font-weight: bold;
                 }
             }
             .info-title, .info{

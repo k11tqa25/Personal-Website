@@ -9,6 +9,7 @@ import Brightness4Icon from '@material-ui/icons/Brightness4';
 import { IconButton } from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
 import ResumePage from './pages/ResumePage';
+import ExperiencePage from './pages/ExperiencePage'
 import PortfolioPage from './pages/PortfolioPage';
 
 function App() {
@@ -65,16 +66,19 @@ function App() {
               <div className="line-4"></div>
           </div>
           <Switching>
-            <Route path="/" exact>
+            <Route path="/Personal-Website/" exact>
               <Homepage/>
             </Route>
-            <Route path="/about" exact>
+            <Route path="/Personal-Website/about" exact>
               <AboutPage/>
             </Route>
-            <Route path="/resume" exact>
+            <Route path="/Personal-Website/resume" exact>
               <ResumePage/>
             </Route>
-            <Route path="/portfolio" exact>
+            <Route path="/Personal-Website/experience" exact>
+              <ExperiencePage/>
+            </Route>
+            <Route path="/Personal-Website/portfolio" exact>
               <PortfolioPage/>
             </Route>
           </Switching>

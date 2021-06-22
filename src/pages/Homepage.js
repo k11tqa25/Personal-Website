@@ -9,7 +9,7 @@ class Homepage extends Component {
         return (
             <HomepageStyled>
                 <div className="p-particles-js">
-                    <Particle/>
+                    <Particle color={"#FFFFFF"}/>
                 </div>
                 <div className="typography">
                     <h1>HI! THIS IS <span>KEVIN.</span></h1>

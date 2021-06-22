@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
+import Keyword from './Keyword';
 
-function ResumeItem({year, title, subTitle, text, bulletPoints}) {
+function ResumeItem({year, title, subTitle, keywords, text, bulletPoints}) {
     return (
         <ResumeItemStyled>
             <div className="left-content">
@@ -10,10 +11,15 @@ function ResumeItem({year, title, subTitle, text, bulletPoints}) {
             <div className="right-content">
                 <h5>{title}</h5>
                 <h6>{subTitle}</h6>
+                <div className="keywords">
+                    {
+                        keywords?keywords.map(k=><Keyword keyword={k}/>):null
+                    }
+                </div>
                 <p>{text}</p>
                 <ul>                    
                     {                    
-                        bulletPoints?bulletPoints.map(x => <li>{x}</li>):<></>
+                        bulletPoints?bulletPoints.map(x => <li>{x}</li>):null
                     }
                 </ul>
             </div>
@@ -64,6 +70,13 @@ const ResumeItemStyled = styled.div`
             height: 2px;
             width: 3rem;
             background-color: var(--border-color);
+        }
+        .keywords{
+            font-size: .5rem;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: .5rem;
+            margin-bottom: 1rem;
         }
         h5{
             color: var(--primary-color);
