@@ -5,11 +5,15 @@ import GithubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 
 class Homepage extends Component {
+    
     render() {
         return (
             <HomepageStyled>
                 <div className="p-particles-js">
-                    <Particle color={"#FFFFFF"}/>
+                    {this.props.theme === 'dark-theme'?                    
+                    <Particle color={"#FFFFFF"}/>:                    
+                    <Particle color={"#121212"}/>
+                    }
                 </div>
                 <div className="typography">
                     <h1>HI! THIS IS <span>KEVIN.</span></h1>

@@ -1,5 +1,6 @@
 import {createGlobalStyle} from 'styled-components';
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const GlobalStyle = createGlobalStyle`
 /* :root{
@@ -25,12 +26,13 @@ const GlobalStyle = createGlobalStyle`
 .light-theme{
     --primary-color: #007bff;
     --primary-color-light: #057FFF;
-    --secondary-color: #ff7675;
+    --secondary-color: #6c757d;
     --background-dark-color: #F1F1F1;
     --background-dark-grey: #e4e4e4;
     --border-color: #cbced8;
     --background-light-color: #10121A;
     --background-light-color-2: rgba(3,127,255,.3);
+    --background-overlap-color: rgba(12,12,12,.5);
     --white-color: #151515;
     --font-light-color: #313131;
     --font-dark-color: #313131;
@@ -49,6 +51,7 @@ const GlobalStyle = createGlobalStyle`
     --border-color: #2e344e;
     --background-light-color: #F1F1F1;
     --background-light-color-2: rgba(3,127,255,.3);
+    --background-overlap-color: rgba(12,12,12,.2);
     --white-color: #FFF;
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;
@@ -102,12 +105,26 @@ h1{
     color: var(--white-color);
     span{
         font-size: 4rem;
-        @media screen and (max-width: 502px){
+        @media screen and (max-width: 1000px){
             font-size: 3rem
         }
     }
-    @media screen and (max-width: 502px){
+    @media screen and (max-width: 1000px){
         font-size: 3rem
+    }
+}
+
+h2{
+    font-size: 3rem;
+    color: var(--white-color);
+    span{
+        font-size: 3rem;
+        @media screen and (max-width: 1000px){
+            font-size: 2rem
+        }
+    }
+    @media screen and (max-width: 1000px){
+        font-size: 2rem
     }
 }
 

@@ -32,7 +32,7 @@ function App() {
   }
   return (
     <div className='App'>
-        <Sidebar navToggle={navToggle} />
+        <Sidebar navToggle={navToggle}/>
 
         <div className="theme">
           <div className="light-dark-mode">
@@ -45,8 +45,7 @@ function App() {
                   checked={checked}
                   inputProps={{ 'aria-label': '' }}
                   size="medium"
-                  onClick={themeToggler}
-                  
+                  onClick={themeToggler}                  
                 />
               </div>
             </div>
@@ -67,7 +66,7 @@ function App() {
           </div>
           <Switching>
             <Route path="/Personal-Website/" exact>
-              <Homepage/>
+              <Homepage theme={theme}/>
             </Route>
             <Route path="/Personal-Website/about" exact>
               <AboutPage/>

@@ -34,7 +34,7 @@ class ResumePage extends Component {
                         title={'Frontend Developer'}
                         subTitle={'Branche, INC. '}
                         keywords={
-                            ['#ReactJS','#Redux','#MySQL','#Python Flask', '#Restful API', '#Github Team Collaboration']
+                            ['ReactJS','Redux','MySQL','Python Flask', 'Restful API', 'Github Team Collaboration']
                         }
                         text={"Experienced with ReactJS + Redux frontend development and Github version control with the team."}
                         bulletPoints={
