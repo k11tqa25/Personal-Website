@@ -11,6 +11,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ResumePage from './pages/ResumePage';
 import ExperiencePage from './pages/ExperiencePage'
 import PortfolioPage from './pages/PortfolioPage';
+import YoungOptics from './pages/experience_subpages/YoungOptics';
 
 function App() {
   const [theme, setTheme] = useState('dark-theme');
@@ -76,6 +77,9 @@ function App() {
             </Route>
             <Route path="/Personal-Website/experience" exact>
               <ExperiencePage/>
+            </Route>
+            <Route path="/Personal-Website/experience/young-optics-inc" exact>
+              <YoungOptics/>
             </Route>
             <Route path="/Personal-Website/portfolio" exact>
               <PortfolioPage/>

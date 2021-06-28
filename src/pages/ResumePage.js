@@ -4,7 +4,7 @@ import {MainLayout} from '../styles/Layouts';
 import Title from '../components/Title';
 import ResumeItem from '../components/ResumeItem';
 import styled from 'styled-components';
-import ResumeSectionTitle from '../components/ResumeSectionTitle'
+import SectionTitle from '../components/SectionTitle'
 import SchoolIcon from '@material-ui/icons/School';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import DownloadIcon from '@material-ui/icons/GetApp';
@@ -25,7 +25,7 @@ class ResumePage extends Component {
                             <p className="button-text">DOWNLOAD</p>
                         </DownloadButtonStyled>
                     </div>     
-                    <ResumeSectionTitle
+                    <SectionTitle
                         icon={briefcase}
                         title={"Work Experence"}
                     />
@@ -73,7 +73,7 @@ class ResumePage extends Component {
                             ]
                         } 
                     />
-                    <ResumeSectionTitle
+                    <SectionTitle
                         icon={school}
                         title={"Education"}
                     />

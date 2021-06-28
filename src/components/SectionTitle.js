@@ -1,16 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function ResumeSectionTitle({icon, title}) {
+function SectionTitle({icon, title}) {
     return (
-        <ResumeSectionTitleStyled >
+        <SectionTitleStyled >
             <p>{icon}</p>
-            <h3>{title}</h3>
-        </ResumeSectionTitleStyled >
+            <h2>{title}</h2>
+        </SectionTitleStyled >
     )
 }
 
-const ResumeSectionTitleStyled = styled.div`
+const SectionTitleStyled = styled.div`
     display: flex;
     align-items: center;
     p{
@@ -19,10 +19,10 @@ const ResumeSectionTitleStyled = styled.div`
             font-size: 3rem;
         }
     }
-    h3{
+    /* h2{
         color: var(--white-color);
         font-size: 2rem;
-    }
+    } */
 `;
 
-export default ResumeSectionTitle
+export default SectionTitle

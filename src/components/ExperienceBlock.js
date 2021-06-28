@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 
 function ExperienceBlock({Title, Date, Image}) {
     return (
-        <NavLink to={`/Personal-Website/${Title.toLowerCase()
+        <NavLink to={`/Personal-Website/experience/${Title.toLowerCase()
                                         .replace(/[.,/#!$%^&*;:{}=\-_`~()]/g,"")
                                         .replaceAll(' ','-')}`}>
             <CardStyle>

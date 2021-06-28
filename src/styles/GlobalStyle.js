@@ -128,6 +128,20 @@ h2{
     }
 }
 
+h3{
+    font-size: 2rem;
+    color: var(--white-color);
+    span{
+        font-size: 2rem;
+        @media screen and (max-width: 1000px){
+            font-size: 1rem
+        }
+    }
+    @media screen and (max-width: 1000px){
+        font-size: 1rem
+    }
+}
+
 span{
     color: var(--primary-color);
 }

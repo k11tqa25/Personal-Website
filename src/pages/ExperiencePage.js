@@ -5,7 +5,7 @@ import ExperienceBlock from '../components/ExperienceBlock'
 import { job_exp, extracurricular_data } from '../data/ExperienceData';
 import styled from 'styled-components';
 import CarouselSlide from "../components/CarouselSlide"
-import ResumeSectionTitle from '../components/ResumeSectionTitle'
+import SectionTitle from '../components/SectionTitle'
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import TrophyIcon from '@material-ui/icons/EmojiEvents';
 
@@ -22,7 +22,7 @@ class ExperiencePage extends Component {
                 <ExperiencePageStyle>
                      
                      <div className="section-title">
-                        <ResumeSectionTitle
+                        <SectionTitle
                             icon={briefcase}
                             title={"Work Experence"}
                         />
@@ -39,7 +39,7 @@ class ExperiencePage extends Component {
                         }
                     </CarouselSlide>
                     <div className="section-title">
-                        <ResumeSectionTitle
+                        <SectionTitle
                             icon={trophy}
                             title={"Extracurricular Activities"}
                         />
