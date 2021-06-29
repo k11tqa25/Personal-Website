@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/Personal-Website/static/js/main.ce4db5f0.chunk.js",
-    "main.js.map": "/Personal-Website/static/js/main.ce4db5f0.chunk.js.map",
+    "main.js": "/Personal-Website/static/js/main.8e9af272.chunk.js",
+    "main.js.map": "/Personal-Website/static/js/main.8e9af272.chunk.js.map",
     "runtime-main.js": "/Personal-Website/static/js/runtime-main.e9eb0159.js",
     "runtime-main.js.map": "/Personal-Website/static/js/runtime-main.e9eb0159.js.map",
     "static/css/2.619a578b.chunk.css": "/Personal-Website/static/css/2.619a578b.chunk.css",
-    "static/js/2.c3e0860e.chunk.js": "/Personal-Website/static/js/2.c3e0860e.chunk.js",
-    "static/js/2.c3e0860e.chunk.js.map": "/Personal-Website/static/js/2.c3e0860e.chunk.js.map",
+    "static/js/2.258edf47.chunk.js": "/Personal-Website/static/js/2.258edf47.chunk.js",
+    "static/js/2.258edf47.chunk.js.map": "/Personal-Website/static/js/2.258edf47.chunk.js.map",
     "index.html": "/Personal-Website/index.html",
     "static/css/2.619a578b.chunk.css.map": "/Personal-Website/static/css/2.619a578b.chunk.css.map",
-    "static/js/2.c3e0860e.chunk.js.LICENSE.txt": "/Personal-Website/static/js/2.c3e0860e.chunk.js.LICENSE.txt",
+    "static/js/2.258edf47.chunk.js.LICENSE.txt": "/Personal-Website/static/js/2.258edf47.chunk.js.LICENSE.txt",
     "static/media/YoungOpticsCover.55e01e47.jpg": "/Personal-Website/static/media/YoungOpticsCover.55e01e47.jpg",
     "static/media/avatar.152f8f7d.jpg": "/Personal-Website/static/media/avatar.152f8f7d.jpg",
     "static/media/profile_photo.24d0cde0.png": "/Personal-Website/static/media/profile_photo.24d0cde0.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e9eb0159.js",
     "static/css/2.619a578b.chunk.css",
-    "static/js/2.c3e0860e.chunk.js",
-    "static/js/main.ce4db5f0.chunk.js"
+    "static/js/2.258edf47.chunk.js",
+    "static/js/main.8e9af272.chunk.js"
   ]
 }
