@@ -12,6 +12,7 @@ import ResumePage from './pages/ResumePage';
 import ExperiencePage from './pages/ExperiencePage'
 import PortfolioPage from './pages/PortfolioPage';
 import YoungOptics from './pages/experience_subpages/YoungOptics';
+import EzPayTestPage from './pages/EzPayTestPage';
 
 function App() {
   const [theme, setTheme] = useState('dark-theme');
@@ -59,12 +60,12 @@ function App() {
         </div>
 
         <MainContentStyled>
-          <div className="lines">
+          {/* <div className="lines">
               <div className="line-1"></div>
               <div className="line-2"></div>
               <div className="line-3"></div>
               <div className="line-4"></div>
-          </div>
+          </div> */}
           <Switching>
             <Route path="/Personal-Website/" exact>
               <Homepage theme={theme}/>
@@ -83,6 +84,9 @@ function App() {
             </Route>
             <Route path="/Personal-Website/portfolio" exact>
               <PortfolioPage/>
+            </Route>
+            <Route path="/Personal-Website/ezpay-test" exact>
+              <EzPayTestPage/>
             </Route>
           </Switching>
         </MainContentStyled>
