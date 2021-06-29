@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import Particle from '../components/Particles';
 import GithubIcon from '@material-ui/icons/GitHub'
+import {NavLink} from 'react-router-dom'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 
 class Homepage extends Component {
@@ -27,6 +28,12 @@ class Homepage extends Component {
                         <a href="https://www.linkedin.com/in/wenkai-tsai/" target=" " className="icon i-linkedin">
                             <LinkedInIcon/>
                         </a>
+                        <NavLink to='/Personal-Website/ezpay-test'>
+                            ...
+                        </NavLink>
+                        <NavLink to='/Personal-Website/ezpay-test/notify'>
+                            ...
+                        </NavLink>
                     </div>
                 </div>
             </HomepageStyled>
